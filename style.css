@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 3rem 4rem;
+}
+/* Header Styling */
+header{
+    text-align: center;
+}
+header img {
+    width: 500px;
+}
+/* Universal Styling */
+h1{
+    font-size: 3rem;
+    margin: 1.5rem auto;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* Nav Styling */
+nav {
+    text-align: center;
+    margin: 1rem auto;
+    background: black;
+    border-radius: 1rem;
+}
+nav ul{
+    font-size: 2rem;
+    text-align: center;
+    padding: auto 1rem;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* Promotion Banner Section Styling */
+section .promotion {
+    background-image: url(./img/promotion-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    margin: 1.25rem auto auto auto;
+}
+.promotion h1{
+    color:white;
+    margin: 1rem 2rem;
+    font-weight: bold;
+
+}
+.promotion p{
+    color: white;
+    width: 85%;
+    margin: auto 2rem;
+}
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin: 1rem auto;
+}
+/* Article Styling */
+article {
+    flex: 1;
+    border-radius: 1rem;
+    padding-bottom: 1.5rem;
+    background-color: #f4e5d6;
+}
+article h2{
+    padding: 1rem;
+}
+article img{
+    max-width: 100%;
+}
+article p{
+    margin: 1rem;
+}
+article a{
+    margin: 1rem;
+}
+article ul{
+    list-style: none;
+    text-indent: 2.5rem;
+}
+/* Footer Styling */
+footer {
+    display: flex;
+    margin: 1rem auto;
+}
+footer .footer-section {
+    flex: 1;
+}
+.footer-section img{
+    max-width: 10%;
+}
+.footer-section p {
+    text-align: right;
+    border-top: 0.25rem solid black;
+    margin: 3rem auto;
+}
